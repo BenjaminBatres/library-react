@@ -4,7 +4,7 @@ import './index.css';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faArrowLeft, faBars, faBolt, faBook, faBookOpen, faShoppingCart, faStar, faStarHalfAlt, faTags, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faBars, faBolt, faBookOpen, faShoppingCart, faStar, faStarHalfAlt, faTags, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faBars, faShoppingCart, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt, faArrowLeft)
 ReactDOM.render(
