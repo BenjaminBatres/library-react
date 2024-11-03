@@ -9,16 +9,13 @@ import Book from "../components/ui/Book";
 const BookInfo = ({ books, addToCart, cart }) => {
   const { id } = useParams();
   const book = books.find((book) => +book.id == +id);
+
   function addBookToCart(book) {
     addToCart(book);
   }
 
   function bookExistsOnCart() {
-    return
-     cart.find(book => book.id === +id) 
-
-     
-
+    return cart.find(book => book.id === +id) 
   }
   return (
     <div id="books__body">
@@ -29,7 +26,7 @@ const BookInfo = ({ books, addToCart, cart }) => {
               <Link to="/books" className="book__link">
                 <FontAwesomeIcon icon="arrow-left" />
               </Link>
-              <Link to="/book" className="book__link">
+              <Link to="/books" className="book__link">
                 <h2 className="book__selected--title--top">Books</h2>
               </Link>
             </div>
