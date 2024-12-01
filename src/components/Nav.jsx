@@ -41,14 +41,14 @@ function Nav({numberOfItem}) {
                     <button className="btn__menu btn__menu--close" onClick={closeMenu}>
                         <FontAwesomeIcon icon="times" />
                     </button>
-                    <ul className="menu__links">
+                    <ul className="menu__links" onClick={closeMenu}>
                         <li className="menu__list">
                             <Link to="/" className="menu__link">Home</Link>
                         </li>
-                        <li className="menu__list">
+                        <li className="menu__list" onClick={closeMenu}>
                             <Link to="/books" className="menu__link">Books</Link>
                         </li>
-                        <li className="menu__list">
+                        <li className="menu__list" onClick={closeMenu}>
                             <Link to="/cart" className="menu__link">Cart</Link>
                         </li>
                     </ul>

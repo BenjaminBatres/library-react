@@ -97,7 +97,7 @@ button:active {
 .nav__container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 24px;
+  padding: 0px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -498,7 +498,7 @@ BOOKS PAGE
 */
 
 #books__body {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(73, 2, 214, 0.1);
   flex: 1;
   display: flex;
   flex-direction: column;
